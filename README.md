@@ -12,3 +12,15 @@ pip install cowsay
 python -u <path to your project>
 ```
 Replace `<path to your project>` with the actual path.
+
+# Hello World! in C++
+
+```C++
+#include <iostream>
+
+using namespace std;
+
+int main() {
+  cout << "Hello World!";
+}
+```
