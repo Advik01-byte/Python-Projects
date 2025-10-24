@@ -14,9 +14,13 @@ python -u <path to your project>
 ```
 Replace `<path to your project>` with the actual path.
 
-If you want to run `pong.py` then:
+**If you want to run `pong.py` then:**
 
 1. Open the file in VS Code
 2. Right-click anywhere in the center of the page after the file is opened
 3. Click on `Run Python`
 4. Click on `Run Python File in Terminal`
+
+**Controls for Pong :video_game:**
+- WS to move left paddle
+- Up and Down Arrow Key to move right paddle
