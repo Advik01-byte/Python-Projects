@@ -6,7 +6,7 @@ If you don't know the prompt here it is:
 python<python version> -u <path to your project>
 ```
 Replace `<path to your project>` with the actual path.  
-Replace `<python version>` with the actual version (Remember to write no spaces when you're writing the python version after `python`!)
+Replace `<python version>` with the actual version (Remember to write no spaces when you're writing the python version after `python`)
 
 ## If you want to run `cow.py` then type this in command prompt:
 ```
@@ -14,13 +14,13 @@ pip install cowsay
 python<python version> -u <path to your project>
 ```
 Replace `<path to your project>` with the actual path.  
-Replace `<python version>` with the actual version (Remember to write no spaces when you're writing the python version after `python`!)
+Replace `<python version>` with the actual version (Remember to write no spaces when you're writing the python version after `python`)
 
 ## If you want to run `pong.py` then:
 
 Write this in command prompt: `python<python version> -u <path to your project>`.  
 Replace `<path to your project>` with the actual path.  
-Replace `<python version>` with the actual version (Remember to write no spaces when you're writing the python version after `python`!)
+Replace `<python version>` with the actual version (Remember to write no spaces when you're writing the python version after `python`)
 
 ### Controls:
 - Up & Down Arrow Keys to move right paddle
@@ -37,4 +37,4 @@ pip install numpy
 python<python version> -u <path to your project>
 ```
 Replace `<path to your project>` with the actual path.  
-Replace `<python version>` with the actual version (Remember to write no spaces when you're writing the python version after `python`!)
+Replace `<python version>` with the actual version (Remember to write no spaces when you're writing the python version after `python`)
