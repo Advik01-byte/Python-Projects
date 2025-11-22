@@ -52,23 +52,31 @@ pen.write("Player A: 0  Player B: 0", align="center", font=("Courier", 15, "bold
 # Functions
 def paddle_a_up():
   y = paddle_a.ycor()
-  y += 20
-  paddle_a.sety(y)
+  # Ensure paddle does not go off the screen
+  if y < 280:
+    y += 20
+    paddle_a.sety(y)
 
 def paddle_a_down():
   y = paddle_a.ycor()
-  y -= 20
-  paddle_a.sety(y)
+  # Ensure paddle does not go off the screen
+  if y > -280:
+    y -= 20
+    paddle_a.sety(y)
 
 def paddle_b_up():
   y = paddle_b.ycor()
-  y += 20
-  paddle_b.sety(y)
+  # Ensure paddle does not go off the screen
+  if y < 280:
+    y += 20
+    paddle_b.sety(y)
 
 def paddle_b_down():
   y = paddle_b.ycor()
-  y -= 20
-  paddle_b.sety(y)
+  # Ensure paddle does not go off the screen
+  if y > -280:
+    y -= 20
+    paddle_b.sety(y)
 
 # Keyboard binding
 wn.listen()
@@ -115,4 +123,5 @@ while True:
 
   if (ball.xcor() < -340 and ball.xcor() > -350) and (ball.ycor() < paddle_a.ycor() + 50 and ball.ycor() > paddle_a.ycor() - 50):
     ball.setx(-340)
+
     ball.dx *= -1
